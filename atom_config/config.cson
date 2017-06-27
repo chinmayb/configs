@@ -1,0 +1,25 @@
+"*":
+  "atom-ctags":
+    autoBuildTagsWhenActive: true
+    cmdArgs: "--exclude=riverbed --exclude=*.json"
+  "autocomplete-ctags":
+    useFuzzy: false
+  "autocomplete-plus":
+    defaultProvider: "Fuzzy"
+    strictMatching: true
+    suggestionListFollows: "Cursor"
+  core:
+    disabledPackages: [
+      "symbols-view"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "364607cd-7b2f-4bdb-b974-0a31b59eab48"
+  "isotope-ui": {}
